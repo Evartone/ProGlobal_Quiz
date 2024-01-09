@@ -1,0 +1,30 @@
+$primary: #3498db;    // Medium blue
+$bg: #ecf0f1;         // Light grayish background
+/*$accent: #e74c3c;     // Coral accent */
+$disabled: #bdc3c7;   // Soft gray for disabled or muted elements
+$bg-accent: #f2f3f4;  // Very light gray background
+$foreground: #2c3e50; // Slightly darker blue-gray for foreground text
+
+$accent: #c3dec7;     // Coral accent
+
+body {
+    font-family: monospace;
+    background: linear-gradient(0deg, $primary 0.03%, $accent);
+    color: $foreground;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0 15px; 
+    height: 100vh;
+
+    @media screen and (max-width: 600px) {
+        
+      
+        padding: 0 10px; 
+    }
+}
+
+
+
+
+
